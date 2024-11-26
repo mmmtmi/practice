@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="formSampleServlet.html" method="post">
+		<label>名前：<input type="text" name="name"></label><br> <!--部品に必ず名前を付ける。-->
+		性別：									<!--ラヂオはnameが同一。valueが送信される。-->
+		<label>男性<input type="radio" name="gender" value="男性"></label>
+		<label>女性<input type="radio" name="gender" value="女性"></label><br>
+		<input type="submit" value="送信">
+				<!--nameは必須ではない。valueがボタン名に反映-->
+	</form>
+</body>
+</html>

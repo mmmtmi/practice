@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<input label="名前:" type="text">
+	<input label="男"type="radio">
+	<input label="女" type="radio">
+	<input label="送信" type="button">
+
+</body>
+</html>
